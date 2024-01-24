@@ -487,8 +487,8 @@ Traffic Routing can be controlled with following annotations:
                 http:
                     paths:
                     - path: /
-                        pathType: Prefix
-                        backend:
+                      pathType: Prefix
+                      backend:
                         service:
                             name: weighted-routing
                             port:
